@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+/* Table Base Structure and Core Settings */
+.stats-table {
+  width: 100%;
+  border-collapse: collapse; /* Essential for solid single-line borders */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+	
+}
+
+/* Caption Layout & Text Customization */
+.stats-table caption {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  color: #333333;
+  caption-side: top;
+  text-align: center;
+}
+
+/* Strict Border Requirement & Uniform Yellow Background */
+.stats-table, 
+.stats-table th, 
+.stats-table tr, 
+.stats-table td {
+  border: 1px solid #000000;
+  background-color: #FFFF00; /* Soft yellow backdrop */
+}
+
+/* Layout Spacing & Text Positioning */
+.stats-table th {
+  padding: 12px 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.stats-table td {
+  padding: 12px 16px;
+  text-align: left;
+  color: #000000;
+}
